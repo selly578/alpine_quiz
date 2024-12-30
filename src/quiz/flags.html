@@ -7,7 +7,7 @@
     <script src="//unpkg.com/alpinejs" defer></script>
     <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
-    <title>Document</title>
+    <title>Tebak bendera</title>
 </head>
 <body x-data="state()" x-init="startTimer();questions = await fetch('../data/flags.json').then(response => response.json().then(data => shuffleArray(data).slice(0,20)))" class="mx-5">
     <div class="mt-5 border-solid shadow-lg rounded-lg p-5">
