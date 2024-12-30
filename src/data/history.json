@@ -1,0 +1,305 @@
+[
+      {
+        "question": "Tahun berapa Tembok Berlin runtuh, menandai akhir simbolis Perang Dingin?",
+        "image": null,
+        "answers": [
+          { "text": "1991", "correct": false },
+          { "text": "1989", "correct": true },
+          { "text": "1985", "correct": false },
+          { "text": "1990", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa Kaisar pertama Kekaisaran Romawi?",
+        "image": null,
+        "answers": [
+          { "text": "Julius Caesar", "correct": false },
+          { "text": "Augustus", "correct": true },
+          { "text": "Nero", "correct": false },
+          { "text": "Tiberius", "correct": false }
+        ]
+      },
+      {
+        "question": "Pertempuran apa yang menandai kekalahan terakhir Napoleon Bonaparte?",
+        "image": null,
+        "answers": [
+          { "text": "Pertempuran Leipzig", "correct": false },
+          { "text": "Pertempuran Trafalgar", "correct": false },
+          { "text": "Pertempuran Waterloo", "correct": true },
+          { "text": "Pertempuran Austerlitz", "correct": false }
+        ]
+      },
+      {
+        "question": "Tahun berapa Perserikatan Bangsa-Bangsa (PBB) resmi dibentuk?",
+        "image": null,
+        "answers": [
+          { "text": "1947", "correct": false },
+          { "text": "1945", "correct": true },
+          { "text": "1944", "correct": false },
+          { "text": "1950", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa orang pertama yang berhasil mengelilingi dunia?",
+        "image": null,
+        "answers": [
+          { "text": "Christopher Columbus", "correct": false },
+          { "text": "Ferdinand Magellan", "correct": false },
+          { "text": "James Cook", "correct": false },
+          { "text": "Francis Drake", "correct": true }
+        ]
+      },
+      {
+        "question": "Kerajaan mana yang dikenal dengan sebutan 'kerajaan di mana matahari tidak pernah terbenam'?",
+        "image": null,
+        "answers": [
+          { "text": "Kerajaan Spanyol", "correct": false },
+          { "text": "Kerajaan Inggris Raya", "correct": true },
+          { "text": "Kesultanan Ottoman", "correct": false },
+          { "text": "Kekaisaran Romawi", "correct": false }
+        ]
+      },
+      {
+        "question": "Apa penyebab utama terjadinya Perang Opium antara Inggris dan Tiongkok?",
+        "image": null,
+        "answers": [
+          { "text": "Perselisihan wilayah", "correct": false },
+          { "text": "Ketidakseimbangan perdagangan dan perdagangan opium", "correct": true },
+          { "text": "Aktivitas misionaris", "correct": false },
+          { "text": "Aliansi politik", "correct": false }
+        ]
+      },
+      {
+        "question": "Perjanjian apa yang mengakhiri Perang Dunia I?",
+        "image": null,
+        "answers": [
+            { "text": "Perjanjian Trianon", "correct": false },
+            { "text": "Perjanjian Brest-Litovsk", "correct": false },
+            { "text": "Perjanjian Versailles", "correct": true },
+            { "text": "Perjanjian Saint-Germain", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa presiden pertama Afrika Selatan setelah berakhirnya apartheid?",
+        "image": null,
+        "answers": [
+          { "text": "Nelson Mandela", "correct": true },
+          { "text": "Desmond Tutu", "correct": false },
+          { "text": "F.W. de Klerk", "correct": false },
+          { "text": "Thabo Mbeki", "correct": false }
+        ]
+      },
+      {
+        "question": "Kapal Titanic tenggelam pada tahun berapa?",
+        "image": null,
+        "answers": [
+          { "text": "1912", "correct": true },
+          { "text": "1911", "correct": false },
+          { "text": "1913", "correct": false },
+          { "text": "1910", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa yang dikenal sebagai penemu mesin cetak?",
+        "image": null,
+        "answers": [
+            { "text": "Leonardo da Vinci", "correct": false },
+            { "text": "Isaac Newton", "correct": false },
+            { "text": "Galileo Galilei", "correct": false },
+            { "text": "Johannes Gutenberg", "correct": true }
+        ]
+      },
+      {
+        "question": "Dimana Konferensi Tingkat Tinggi Asia-Afrika pada tahun 1955 diadakan?",
+        "image": null,
+        "answers": [
+          { "text": "Indonesia", "correct": true },
+          { "text": "India", "correct": false },
+          { "text": "Tiongkok", "correct": false },
+          { "text": "Pakistan", "correct": false }
+        ]
+      },
+      {
+        "question": "Apa nama kapal eksplorasi yang dipimpin oleh James Cook?",
+        "image": null,
+        "answers": [
+            { "text": "HMS Beagle", "correct": false },
+            { "text": "Santa Maria", "correct": false },
+            { "text": "HMS Endeavour", "correct": true },
+          { "text": "Golden Hind", "correct": false }
+        ]
+      },
+      {
+        "question": "Kota kuno apa yang dikenal sebagai 'Kota Hilang Inca'?",
+        "image": null,
+        "answers": [
+            { "text": "Tikal", "correct": false },
+            { "text": "Machu Picchu", "correct": true },
+          { "text": "Chichen Itza", "correct": false },
+          { "text": "Cuzco", "correct": false }
+        ]
+      },
+      {
+        "question": "Apa nama dokumen yang ditandatangani pada tahun 1215 yang membatasi kekuasaan raja Inggris?",
+        "image": null,
+        "answers": [
+          { "text": "Magna Carta", "correct": true },
+          { "text": "Bill of Rights", "correct": false },
+          { "text": "Petition of Right", "correct": false },
+          { "text": "Habeas Corpus Act", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa yang memimpin Revolusi Kuba tahun 1959?",
+        "image": null,
+        "answers": [
+            { "text": "Che Guevara", "correct": false },
+            { "text": "Raul Castro", "correct": false },
+            { "text": "Camilo Cienfuegos", "correct": false },
+            { "text": "Fidel Castro", "correct": true }
+        ]
+      },
+      {
+        "question": "Tahun berapa Revolusi Perancis dimulai?",
+        "image": null,
+        "answers": [
+            { "text": "1776", "correct": false },
+            { "text": "1789", "correct": true },
+          { "text": "1804", "correct": false },
+          { "text": "1815", "correct": false }
+        ]
+      },
+      {
+        "question": "Apa nama perjanjian yang memisahkan dunia baru antara Spanyol dan Portugal?",
+        "image": null,
+        "answers": [
+            { "text": "Perjanjian Utrecht", "correct": false },
+            { "text": "Perjanjian Paris", "correct": false },
+            { "text": "Perjanjian Tordesillas", "correct": true },
+          { "text": "Perjanjian Westphalia", "correct": false }
+        ]
+      },
+      {
+        "question": "Kerajaan kuno apa yang membangun Piramida Giza?",
+        "image": null,
+        "answers": [
+            { "text": "Babilonia", "correct": false },
+            { "text": "Mesir Kuno", "correct": true },
+          { "text": "Assyria", "correct": false },
+          { "text": "Persia", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa yang dikenal sebagai 'Bapak Pendiri Amerika' yang menulis Deklarasi Kemerdekaan Amerika Serikat?",
+        "image": null,
+        "answers": [
+            { "text": "George Washington", "correct": false },
+            { "text": "Benjamin Franklin", "correct": false },
+            { "text": "John Adams", "correct": false },
+            { "text": "Thomas Jefferson", "correct": true }
+        ]
+      },
+      {
+        "question": "Apa nama peristiwa pembantaian tahun 1937-1938 di Nanjing oleh tentara Jepang?",
+        "image": null,
+        "answers": [
+          { "text": "Pembantaian Nanjing", "correct": true },
+          { "text": "Insiden Manchuria", "correct": false },
+          { "text": "Perang Shanghai", "correct": false },
+          { "text": "Insiden Mukden", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa yang dikenal sebagai pemimpin militer Kartago dalam Perang Punisia Kedua?",
+        "image": null,
+        "answers": [
+            { "text": "Scipio Africanus", "correct": false },
+            { "text": "Hannibal Barca", "correct": true },
+          { "text": "Julius Caesar", "correct": false },
+          { "text": "Alexander Agung", "correct": false }
+        ]
+      },
+      {
+        "question": "Apa nama kota yang dihancurkan oleh letusan Gunung Vesuvius pada tahun 79 Masehi?",
+        "image": null,
+        "answers": [
+            { "text": "Herculaneum", "correct": false },
+            { "text": "Napoli", "correct": false },
+            { "text": "Stabiae", "correct": false },
+            { "text": "Pompeii", "correct": true }
+        ]
+      },
+      {
+        "question": "Siapa tokoh terkenal dari Revolusi Industri yang mengembangkan mesin uap pertama?",
+        "image": null,
+        "answers": [
+          { "text": "James Watt", "correct": true },
+          { "text": "Thomas Edison", "correct": false },
+          { "text": "George Stephenson", "correct": false },
+          { "text": "Michael Faraday", "correct": false }
+        ]
+      },
+      {
+        "question": "Perang Dunia II dimulai ketika Jerman menyerang negara mana pada tahun 1939?",
+        "image": null,
+        "answers": [
+          { "text": "Polandia", "correct": true },
+          { "text": "Prancis", "correct": false },
+          { "text": "Belanda", "correct": false },
+          { "text": "Rusia", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa yang memimpin revolusi Bolshevik di Rusia pada tahun 1917?",
+        "image": null,
+        "answers": [
+            { "text": "Joseph Stalin", "correct": false },
+            { "text": "Leon Trotsky", "correct": false },
+            { "text": "Vladimir Lenin", "correct": true },
+            { "text": "Mikhail Gorbachev", "correct": false }
+        ]
+      },
+      {
+        "question": "Apa nama kerajaan yang mendirikan Hagia Sophia di Konstantinopel?",
+        "image": null,
+        "answers": [
+          { "text": "Kekaisaran Romawi Timur", "correct": true },
+          { "text": "Kekaisaran Ottoman", "correct": false },
+          { "text": "Kekaisaran Romawi Barat", "correct": false },
+          { "text": "Kekaisaran Rusia", "correct": false }
+        ]
+      },
+      {
+        "question": "Tahun berapa Revolusi Amerika dimulai?",
+        "image": null,
+        "answers": [
+          { "text": "1776", "correct": false },
+          { "text": "1775", "correct": true },
+          { "text": "1781", "correct": false },
+          { "text": "1783", "correct": false }
+        ]
+      },
+      {
+        "question": "Siapa penjelajah yang menemukan jalur laut ke India pada abad ke-15?",
+        "image": null,
+        "answers": [
+            { "text": "Ferdinand Magellan", "correct": false },
+            { "text": "Christopher Columbus", "correct": false },
+            { "text": "Henry the Navigator", "correct": false },
+            { "text": "Vasco da Gama", "correct": true }
+        ]
+      },
+      {
+        "question": "Peristiwa apa yang memulai Revolusi Prancis?",
+        "image": null,
+        "answers": [
+            { "text": "Deklarasi Hak Asasi Manusia", "correct": false },
+            { "text": "Pembentukan Republik Prancis", "correct": false },
+            { "text": "Penyerbuan Bastille", "correct": true },
+          { "text": "Eksekusi Raja Louis XVI", "correct": false }
+        ]
+      }
+    
+]
+
+  

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@4/dark.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.js"></script>
+    <title>Document</title>
+</head>
+<body x-data="state()" x-init="startTimer();questions = await fetch('../data/history.json').then(response => response.json().then(data => shuffleArray(data).slice(0,20)))" class="mx-5">
+    <div class="mt-5 border-solid shadow-lg rounded-lg p-5">
+        <div class="float-end text-lg font-semibold">
+            <span x-text="time"></span>
+        </div>
+        <div x-show=" questions.length > 0">
+            <p  class="pb-10 text-lg" x-text="questions[questionIndex].question"></p>
+            <img class="my-5 border border-solid border-green-950" x-bind:src="questions[questionIndex].image" alt="">
+            <div class="block space-x-2 space-y-3 w-full lg:grid grid-cols-2 gap-4 p-4">
+                <template x-for="(answer,index) in questions[questionIndex].answers" :key="index">
+                    <button x-on:click="checkAnswer(index)" class=" font-bold px-6 py-3 rounded-lg border-2 border-black border-b-4 hover:border-b-2 hover:border-gray-500 hover:translate-y-1 transition-all" x-bind:class="answer.correct && showAnswer?'bg-green-500 text-white':!answer.correct && showAnswer?'bg-red-600 text-white':'bg-white text-black' ">
+                        <span x-text="answer.text"></span>
+                    </button>
+                </template>
+            </div>
+            <button x-on:click="nextQuestion()" x-show="showAnswer && !done" class="bg-blue-500 text-white font-bold px-6 py-3 rounded-md border-b-4 border-blue-700 hover:border-b-2 hover:translate-y-1 transition-all">
+                Berikutnya <span x-text="nextPageTime"></span>
+            </button>
+        </div>
+        <div x-show="done" class="text-center transition-opacity duration-500 ease-in-out opacity-0" 
+        x-bind:class="done ? 'opacity-100' : 'opacity-0'" x-transition>
+       <template x-if="score === questions.length">
+           <div>
+               <h2 class="text-2xl font-bold text-green-600">🎉 Selamat! 🎉</h2>
+               <p class="text-lg mt-2">Kamu menyelesaikan kuis dengan sempurna!</p>
+               <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score"></span> dari <span x-text="questions.length"></span>!</p>
+           </div>
+       </template>
+       <template x-if="score > 0 && score < questions.length">
+           <div>
+               <h2 class="text-2xl font-bold text-yellow-500">👏 Hampir Sempurna! 👏</h2>
+               <p class="text-lg mt-2">Kamu telah menyelesaikan kuis!</p>
+               <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score"></span> dari <span x-text="questions.length"></span>!</p>
+           </div>
+       </template>
+       <template x-if="score === 0">
+           <div>
+               <h2 class="text-2xl font-bold text-red-600">😅 Coba Lagi! 😅</h2>
+               <p class="text-lg mt-2">Kamu belum menjawab dengan benar. Jangan menyerah!</p>
+               <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score"></span> dari <span x-text="questions.length"></span>!</p>
+           </div>
+       </template>
+       <div class="mt-4">
+           <button x-on:click="restart()" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all">
+               Coba Lagi 🔄
+           </button>
+       </div>
+   </div>
+        
+    </div>
+    <script>
+        function state(){
+            return {
+                shuffleArray: function(arr) {
+                    for (let i = arr.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [arr[i], arr[j]] = [arr[j], arr[i]]; // Swap elements
+                    }
+                    return arr;
+                },
+                checkAnswer: function(answer) {
+                    if (!this.showAnswer) {
+                        if (answer != null) {
+                            const isCorrect = this.questions[this.questionIndex].answers[answer].correct;
+                            if (isCorrect) {
+                                this.score++;
+                            }
+                        } else {
+                            console.log("No answer selected.");
+                        }
+                    }
+                    this.showAnswer = true;
+                    this.time = 0;
+                    this.startNextPageTimer();
+                },
+                startTimer: function() {
+                    if (this.timer) clearInterval(this.timer); // Ensure only one timer runs
+                    this.timer = setInterval(() => {
+                        if (this.time > 0 && !this.showAnswer) {
+                            this.time--;
+                        } else {
+                            clearInterval(this.timer);
+                            this.timer = null; // Clear timer ID
+                            this.timerFinished();
+                        }
+                    }, 1000);
+                },
+                startNextPageTimer: function() {
+                    if (this.nextPageTimer) clearInterval(this.nextPageTimer); // Prevent duplicates
+                    this.nextPageTimer = setInterval(() => {
+                        if (this.nextPageTime > 0) {
+                            this.nextPageTime--;
+                        } else {
+                            clearInterval(this.nextPageTimer);
+                            this.nextPageTimer = null; // Clear timer ID
+                            this.nextQuestion();
+                        }
+                    }, 1000);
+                },
+                timerFinished: function() {
+                    this.checkAnswer(null); // Trigger empty answer on timeout
+                },
+                nextQuestion: function() {
+                    this.questionIndex++;
+                    if (this.questionIndex >= this.questions.length) {
+                        this.done = true;
+                        this.time = 0;
+                    } else {
+                        this.showAnswer = false;
+                        this.time = 10;
+                        this.startTimer();
+                    }
+                    this.nextPageTime = 10; // Reset page transition timer
+                },
+                reset: function() {
+                    this.questionIndex = 0;
+                    this.time = 10;
+                    this.nextPageTime = 10;
+                    this.showAnswer = false;
+                    this.score = 0;
+                    this.done = false;
+                    this.startTimer(); // Restart timer on reset
+                },
+                time: 10,
+                timer: null,
+                nextPageTime: 10,
+                nextPageTimer: null,
+                showAnswer: false,
+                questionIndex: 0,
+                score: 0,
+                done: false,
+                questions: [] // To be populated dynamically
+            };
+        }
+    </script>
+</body>
+</html>

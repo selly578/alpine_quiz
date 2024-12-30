@@ -1,0 +1,352 @@
+[
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/us.png",
+        "answers": [
+            { "text": "Amerika Serikat", "correct": true },
+            { "text": "Kanada", "correct": false },
+            { "text": "Inggris Raya", "correct": false },
+            { "text": "Australia", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/jp.png",
+        "answers": [
+            { "text": "Cina", "correct": false },
+            { "text": "Republik Korea", "correct": false },
+            { "text": "Jepang", "correct": true },
+            { "text": "Vietnam", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/de.png",
+        "answers": [
+            { "text": "Austria", "correct": false },
+            { "text": "Jerman", "correct": true },
+            { "text": "Belgia", "correct": false },
+            { "text": "Swiss", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/fr.png",
+        "answers": [
+            { "text": "Italia", "correct": false },
+            { "text": "Portugal", "correct": false },
+            { "text": "Prancis", "correct": true },
+            { "text": "Spanyol", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/in.png",
+        "answers": [
+            { "text": "Pakistan", "correct": false },
+            { "text": "Bangladesh", "correct": false },
+            { "text": "India", "correct": true },
+            { "text": "Sri Lanka", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/ca.png",
+        "answers": [
+            { "text": "Brasil", "correct": false },
+            { "text": "Kanada", "correct": true },
+            { "text": "Amerika Serikat", "correct": false },
+            { "text": "Meksiko", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/gb.png",
+        "answers": [
+            { "text": "Kanada", "correct": false },
+            { "text": "Inggris Raya", "correct": true },
+            { "text": "Irlandia", "correct": false },
+            { "text": "Australia", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/au.png",
+        "answers": [
+            { "text": "Selandia Baru", "correct": false },
+            { "text": "Inggris Raya", "correct": false },
+            { "text": "Australia", "correct": true },
+            { "text": "Afrika Selatan", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/br.png",
+        "answers": [
+            { "text": "Cile", "correct": false },
+            { "text": "Brasil", "correct": true },
+            { "text": "Argentina", "correct": false },
+            { "text": "Peru", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/it.png",
+        "answers": [
+            { "text": "Italia", "correct": true },
+            { "text": "Spanyol", "correct": false },
+            { "text": "Portugal", "correct": false },
+            { "text": "Prancis", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/cn.png",
+        "answers": [
+            { "text": "Republik Korea", "correct": false },
+            { "text": "Jepang", "correct": false },
+            { "text": "India", "correct": false },
+            { "text": "Cina", "correct": true }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/ru.png",
+        "answers": [
+            { "text": "Kazakhstan", "correct": false },
+            { "text": "Rusia", "correct": true },
+            { "text": "Ukraina", "correct": false },
+            { "text": "Belarusia", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/za.png",
+        "answers": [
+            { "text": "Kenya", "correct": false },
+            { "text": "Afrika Selatan", "correct": true },
+            { "text": "Nigeria", "correct": false },
+            { "text": "Mesir", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/sg.png",
+        "answers": [
+            { "text": "Singapura", "correct": true },
+            { "text": "Malaysia", "correct": false },
+            { "text": "Thailand", "correct": false },
+            { "text": "Indonesia", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/kr.png",
+        "answers": [
+            { "text": "Republik Demokratik Rakyat Korea", "correct": false },
+            { "text": "Republik Korea", "correct": true },
+            { "text": "Jepang", "correct": false },
+            { "text": "Cina", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/th.png",
+        "answers": [
+            { "text": "Vietnam", "correct": false },
+            { "text": "Thailand", "correct": true },
+            { "text": "Malaysia", "correct": false },
+            { "text": "Indonesia", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/ae.png",
+        "answers": [
+            { "text": "Qatar", "correct": false },
+            { "text": "Uni Emirat Arab", "correct": true },
+            { "text": "Arab Saudi", "correct": false },
+            { "text": "Oman", "correct": false }
+        ]
+    },
+    {
+        "question": "Negara mana yang memiliki bendera ini?",
+        "image": "https://flagcdn.com/w320/mx.png",
+        "answers": [
+            { "text": "Amerika Serikat", "correct": false },
+            { "text": "Meksiko", "correct": true },
+            { "text": "Kolombia", "correct": false },
+            { "text": "Brasil", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/ws.png",
+        "answers": [
+            { "text": "Fiji", "correct": false },
+            { "text": "Tonga", "correct": false },
+            { "text": "Samoa", "correct": true },
+            { "text": "Vanuatu", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/bt.png",
+        "answers": [
+            { "text": "Nepal", "correct": false },
+            { "text": "Bhutan", "correct": true },
+            { "text": "Maladewa", "correct": false },
+            { "text": "Timor-Leste", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/gq.png",
+        "answers": [
+            { "text": "Guinea Khatulistiwa", "correct": true },
+            { "text": "Gabon", "correct": false },
+            { "text": "Guinea-Bissau", "correct": false },
+            { "text": "Mozambik", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/ki.png",
+        "answers": [
+            { "text": "Seychelles", "correct": false },
+            { "text": "Palau", "correct": false },
+            { "text": "Kiribati", "correct": true },
+            { "text": "Komoro", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/lc.png",
+        "answers": [
+            { "text": "Saint Kitts dan Nevis", "correct": false },
+            { "text": "Grenada", "correct": false },
+            { "text": "Antigua dan Barbuda", "correct": false },
+            { "text": "Saint Lucia", "correct": true }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/ss.png",
+        "answers": [
+            { "text": "Sudan", "correct": false },
+            { "text": "Eritrea", "correct": false },
+            { "text": "Sudan Selatan", "correct": true },
+            { "text": "Chad", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/tv.png",
+        "answers": [
+            { "text": "Nauru", "correct": false },
+            { "text": "Tuvalu", "correct": true },
+            { "text": "Marshall Islands", "correct": false },
+            { "text": "Palau", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/cv.png",
+        "answers": [
+            { "text": "Komoro", "correct": false },
+            { "text": "Gabon", "correct": false },
+            { "text": "Mozambik", "correct": false },
+            { "text": "Tanjung Verde", "correct": true }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/vc.png",
+        "answers": [
+            { "text": "Dominika", "correct": false },
+            { "text": "Saint Kitts dan Nevis", "correct": false },
+            { "text": "Saint Vincent dan Grenadine", "correct": true },
+            { "text": "Grenada", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/mh.png",
+        "answers": [
+            { "text": "Kepulauan Marshall", "correct": true },
+            { "text": "Tuvalu", "correct": false },
+            { "text": "Palau", "correct": false },
+            { "text": "Nauru", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/gw.png",
+        "answers": [
+            { "text": "Guinea-Bissau", "correct": true },
+            { "text": "Guinea Khatulistiwa", "correct": false },
+            { "text": "Gambia", "correct": false },
+            { "text": "Liberia", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/bi.png",
+        "answers": [
+            { "text": "Rwanda", "correct": false },
+            { "text": "Burundi", "correct": true },
+            { "text": "Uganda", "correct": false },
+            { "text": "Tanzania", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/kp.png",
+        "answers": [
+            { "text": "Republik Demokratik Rakyat Korea", "correct": true },
+            { "text": "Republik Korea", "correct": false },
+            { "text": "Tiongkok", "correct": false },
+            { "text": "Jepang", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/tl.png",
+        "answers": [
+            { "text": "Maladewa", "correct": false },
+            { "text": "Bhutan", "correct": false },
+            { "text": "Fiji", "correct": false },
+            { "text": "Timor-Leste", "correct": true }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/ls.png",
+        "answers": [
+            { "text": "Eswatini", "correct": false },
+            { "text": "Botswana", "correct": false },
+            { "text": "Namibia", "correct": false },
+            { "text": "Lesotho", "correct": true }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/sb.png",
+        "answers": [
+            { "text": "Samoa", "correct": false },
+            { "text": "Vanuatu", "correct": false },
+            { "text": "Kepulauan Solomon", "correct": true },
+            { "text": "Tonga", "correct": false }
+        ]
+    },
+    {
+        "question": "Bendera negara apakah ini?",
+        "image": "https://flagcdn.com/w320/to.png",
+        "answers": [
+            { "text": "Samoa", "correct": false },
+            { "text": "Tonga", "correct": true },
+            { "text": "Tuvalu", "correct": false },
+            { "text": "Kiribati", "correct": false }
+        ]
+    }
+]
