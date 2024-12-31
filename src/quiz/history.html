@@ -36,27 +36,41 @@
         </div>
         <div x-show="done" class="text-center transition-opacity duration-500 ease-in-out opacity-0" 
         x-bind:class="done ? 'opacity-100' : 'opacity-0'" x-transition>
-       <template x-if="score === questions.length">
-           <div>
-               <h2 class="text-2xl font-bold text-green-600">🎉 Selamat! 🎉</h2>
-               <p class="text-lg mt-2">Kamu menyelesaikan kuis dengan sempurna!</p>
-               <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score"></span> dari <span x-text="questions.length"></span>!</p>
-           </div>
-       </template>
-       <template x-if="score > 0 && score < questions.length">
-           <div>
-               <h2 class="text-2xl font-bold text-yellow-500">👏 Hampir Sempurna! 👏</h2>
-               <p class="text-lg mt-2">Kamu telah menyelesaikan kuis!</p>
-               <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score"></span> dari <span x-text="questions.length"></span>!</p>
-           </div>
-       </template>
-       <template x-if="score === 0">
-           <div>
-               <h2 class="text-2xl font-bold text-red-600">😅 Coba Lagi! 😅</h2>
-               <p class="text-lg mt-2">Kamu belum menjawab dengan benar. Jangan menyerah!</p>
-               <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score"></span> dari <span x-text="questions.length"></span>!</p>
-           </div>
-       </template>
+        <template x-if="score * 5 === 100">
+            <div>
+                <h2 class="text-2xl font-bold text-green-600">🎉 Sempurna! 🎉</h2>
+                <p class="text-lg mt-2">Kamu menyelesaikan kuis dengan sempurna!</p>
+                <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score * 5"></span> dari 100!</p>
+            </div>
+        </template>
+        <template x-if="score * 5 >= 80 && score * 5 < 100">
+            <div>
+                <h2 class="text-2xl font-bold text-blue-500">👏 Luar Biasa! 👏</h2>
+                <p class="text-lg mt-2">Kamu hampir sempurna, hanya butuh sedikit lagi!</p>
+                <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score * 5"></span> dari 100!</p>
+            </div>
+        </template>
+        <template x-if="score * 5 >= 60 && score * 5 < 80">
+            <div>
+                <h2 class="text-2xl font-bold text-yellow-500">👍 Bagus! 👍</h2>
+                <p class="text-lg mt-2">Hasil yang cukup baik, tapi kamu bisa lebih baik lagi!</p>
+                <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score * 5"></span> dari 100!</p>
+            </div>
+        </template>
+        <template x-if="score * 5 >= 40 && score * 5 < 60">
+            <div>
+                <h2 class="text-2xl font-bold text-orange-500">😐 Lumayan... 😐</h2>
+                <p class="text-lg mt-2">Kamu mencoba, tapi ada banyak yang perlu ditingkatkan.</p>
+                <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score * 5"></span> dari 100!</p>
+            </div>
+        </template>
+        <template x-if="score * 5 < 40">
+            <div>
+                <h2 class="text-2xl font-bold text-red-600">😔 Sangat Mengecewakan 😔</h2>
+                <p class="text-lg mt-2">Kamu bahkan tidak mencapai setengahnya... Apakah kamu membaca pertanyaannya dengan benar?</p>
+                <p class="text-lg font-semibold mt-1">Skor kamu: <span x-text="score * 5"></span> dari 100!</p>
+            </div>
+        </template>
        <div class="mt-4">
            <button x-on:click="restart()" class="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600 transition-all">
                Coba Lagi 🔄
@@ -121,12 +135,12 @@
                     this.checkAnswer(null); // Trigger empty answer on timeout
                 },
                 nextQuestion: function() {
+                    this.questionIndex++;
                     if (this.questionIndex >= this.questions.length) {
                         this.done = true;
                         this.time = 0;
                     } else {
                         this.showAnswer = false;
-                        this.questionIndex++;
                         this.time = 10;
                         this.nextPageTime = 10; // Reset page transition timer
                         this.startTimer();

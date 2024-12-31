@@ -1,0 +1,222 @@
+[
+    {
+        "question": "Planet apa yang dikenal sebagai 'Planet Merah'?",
+        "image": null,
+        "answers": [
+            {
+                "text": "Mars",
+                "correct": true
+            },
+            {
+                "text": "Venus",
+                "correct": false
+            },
+            {
+                "text": "Jupiter",
+                "correct": false
+            },
+            {
+                "text": "Saturnus",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Hewan darat tercepat di dunia adalah?",
+        "image": null,
+        "answers": [
+            {
+                "text": "Cheetah",
+                "correct": true
+            },
+            {
+                "text": "Singa",
+                "correct": false
+            },
+            {
+                "text": "Kuda",
+                "correct": false
+            },
+            {
+                "text": "Serigala",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Apa elemen kimia dengan simbol 'O'?",
+        "image": null,
+        "answers": [
+            {
+                "text": "Osmium",
+                "correct": false
+            },
+            {
+                "text": "Oganesson",
+                "correct": false
+            },
+            {
+                "text": "Oksigen",
+                "correct": true
+            },
+            {
+                "text": "Oksida",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Berapa jumlah warna dalam pelangi?",
+        "image": null,
+        "answers": [
+            {
+                "text": "6",
+                "correct": false
+            },
+            {
+                "text": "7",
+                "correct": true
+            },
+            {
+                "text": "8",
+                "correct": false
+            },
+            {
+                "text": "5",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Apa nama sungai terpanjang di dunia?",
+        "image": null,
+        "answers": [
+            {
+                "text": "Sungai Amazon",
+                "correct": false
+            },
+            {
+                "text": "Sungai Nil",
+                "correct": true
+            },
+            {
+                "text": "Sungai Yangtze",
+                "correct": false
+            },
+            {
+                "text": "Sungai Mississippi",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Berapa banyak benua yang ada di dunia?",
+        "image": null,
+        "answers": [
+            {
+                "text": "7",
+                "correct": true
+            },
+            {
+                "text": "6",
+                "correct": false
+            },
+            {
+                "text": "5",
+                "correct": false
+            },
+            {
+                "text": "8",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Apa nama kota terbesar di dunia berdasarkan populasi?",
+        "image": null,
+        "answers": [
+            {
+                "text": "Shanghai",
+                "correct": false
+            },
+            {
+                "text": "New York",
+                "correct": false
+            },
+            {
+                "text": "Tokyo",
+                "correct": true
+            },
+            {
+                "text": "Mumbai",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Berapa sisi yang dimiliki oleh hexagon?",
+        "image": null,
+        "answers": [
+            {
+                "text": "6",
+                "correct": true
+            },
+            {
+                "text": "8",
+                "correct": false
+            },
+            {
+                "text": "5",
+                "correct": false
+            },
+            {
+                "text": "7",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Siapa penulis buku 'Harry Potter'?",
+        "image": null,
+        "answers": [
+            {
+                "text": "J.K. Rowling",
+                "correct": true
+            },
+            {
+                "text": "George R.R. Martin",
+                "correct": false
+            },
+            {
+                "text": "Stephen King",
+                "correct": false
+            },
+            {
+                "text": "Suzanne Collins",
+                "correct": false
+            }
+        ]
+    },
+    {
+        "question": "Apa nama ibu kota Australia?",
+        "image": null,
+        "answers": [
+            {
+                "text": "Sydney",
+                "correct": false
+            },
+            {
+                "text": "Canberra",
+                "correct": true
+            },
+            {
+                "text": "Melbourne",
+                "correct": false
+            },
+            {
+                "text": "Brisbane",
+                "correct": false
+            }
+        ]
+    }
+]
